@@ -19,9 +19,9 @@ setuptools.setup(
         ]
     },
     install_requires=[
-        "ruamel.yaml",
+        "ruamel.yaml>=0.17",
     ],
-    test_requires=[
+    tests_require=[
         "pytest",
     ],
 )
